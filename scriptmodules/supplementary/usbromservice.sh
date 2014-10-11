@@ -4,7 +4,7 @@ rp_module_menus="3+"
 
 function install_usbromservice() {
     # install usbmount package
-    rps_checkNeededPackages usbmount
+    rps_checkNeededPackages xbian-package-usbmount
 }
 
 function configure_usbromservice() {
